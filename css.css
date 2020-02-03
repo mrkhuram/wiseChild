@@ -1,0 +1,340 @@
+.test{
+    background-color: red;
+}
+.Outer{
+    width: 1200px;
+    margin-top: 5px;
+    height: 70px;
+}
+.logo{
+text-align: center;
+}
+.logo-img{
+    /* margin-left: 50px; */
+    height: 50px;
+    margin-top: 10px;
+    /* width: 100px; */
+}
+.list{
+    display: flex;
+    /* text-align: center; */
+    margin-left: 30%;
+    margin-top: 35px;
+}
+.list li{
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-left: 25px;
+}
+.list li a{
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.sliderOuter{
+margin-bottom: 20px;
+
+}
+.headingTellMore{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.stuff{
+    min-height: 450px;
+    height: 500px;
+    max-height: 700px;
+    background-color: #FFD6DA;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+.specialize{
+    height: 100px;
+}
+.specializeIcon{
+    height: 180px;
+   
+}
+.outer{
+    flex-wrap: wrap;
+}
+.specializeText{
+    font-size: 2em;
+    font-family: sans-serif, 'Poppins';
+    margin-top: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.vrLogo{
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.vrText{
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: sans-serif, 'Poppins';
+    position: relative;
+    top: 20px;
+}
+.brandLogo{
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.people{
+    background-color: #FFD55F;
+    height: 500px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+.coolText{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif, 'Poppins';
+  
+}
+.coolOuter{
+    width: 180px ;
+    
+}
+.belowLogo{
+    margin-top: 70px;
+
+}
+.clients{
+    height: 500px;
+    background-color: #7affcbff;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+.discoveryLogo{
+    height: 80px;
+}
+.asicsImg{
+    margin-left: 20px;
+}
+.viceLogo{
+    margin-left: -40px;
+}
+.clientsOuter{
+    margin-top: 60px;
+}
+.footer{
+    height: 630px;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+.getInTouch{
+    height: 100px;
+    text-align: center;
+
+}
+.getInTouch .text p{
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 23px;
+    
+}
+.textOfStory{
+    color: white;
+    font-size: 2em;
+}
+.numberOuter{
+    text-align: center;
+}
+.number{
+
+    color: white;
+    font-size: 1.6em;
+
+}
+.number p span{
+    font-weight: bolder;
+    font-size: 0.8em !important;
+}
+.email{
+    text-align: center;
+}
+.email p span{
+    font-weight: bolder;
+    font-size: 0.8em !important;
+}
+.pageUp{
+height: 70px;
+margin-top: 40px;
+}
+.socialIconsOuter{
+color: white;
+font-size: 4em;
+font-weight: lighter;
+margin-top: 30px;
+}
+.socialIcon{
+    height: 30px;
+}
+/* .coolAnd{
+    display: flex; flex-wrap: wrap;
+} */
+
+.coolPeoples{
+    margin-top: 90px;
+}
+@media only screen and (max-width: 600px){
+    .stuff{
+        height: 700px;
+        /* text-align: center; */
+    }
+    .stuffTxt{
+        text-align: center;
+    }
+    .specializeText{
+        font-size: 1.5em;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .vrLogo{
+        height: 80px;
+        margin-top: 0px;
+    }
+    .brandLogo{
+        height: 80px;
+    }
+    .vrText{
+        font-size: 1.3em !important;
+    }
+    .people{
+        height: 690px;
+    }
+    .coolPeople{
+        margin-left: 5px !important;
+    }
+    .coolText{
+        font-size: 1.3em !important;
+        margin-left: 5px !important;
+    }
+    .coolOuter{
+        margin-top: 50px;
+
+    }
+    .discoveryLogo{
+        height: 50px;
+    }
+    .viceLogo{
+     margin-left: 10px;   
+     margin-top: 10px;
+    }
+    .clients{
+        height: 520px;
+        text-align: center;
+    }
+    .fblogo{
+
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .asicsImg{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .text p{
+        font-size: 1.5em;
+    }
+    .list{
+        margin-left: 10%;
+    }
+    .textOfStory{
+        font-size: 1.5em;
+    }
+    .number{
+        margin-top: 20px;
+        font-size: 1.3em;
+    }
+    .pageUp{
+        height: 40px;
+        margin-top: 10px;
+    }
+    .headingTellMore{
+        font-size: 1.2em;
+    }
+    .belowLogo{
+        margin-top: 10px;
+    }
+    .clientsOuter{
+        margin-top: 25px;
+    }
+    .footer{
+        height: 575px;
+    }
+    .getInTouch .text p{
+        font-size: 1.9em;
+    }
+  }
+
+  @media only screen and (max-width: 1296px){
+    .vrLogo{
+        height: 100px;
+    }
+    .vrText{
+        font-size: 1.1em;
+    }
+    .brandLogo{
+        height: 100px;
+    }
+    .discoveryLogo{
+        height: 70px;
+    }
+    .coolText{
+        font-size: 1.1em;
+    }
+    .coolPeoples{
+        margin-top: 75px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 930px){
+    .vrLogo{
+        height: 80px;
+    }
+    .vrText{
+        font-size: 0.7em;
+    }
+    .brandLogo{
+        height: 80px;
+    }
+    .discoveryLogo{
+        margin-top: 10px;
+        height: 40px;
+    }
+    .coolText{
+        font-size: 0.7em;
+        margin-top: 65px !important;
+    }
+    .logo-img{
+        margin-left: 0px;
+    }
+    .list{
+        margin: auto;
+        margin-top: 5px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+  }
+
+.playbtn{
+    float: right;
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+}

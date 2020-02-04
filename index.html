@@ -39,11 +39,11 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" style="margin: auto;">
                 <div class="carousel-inner">
                     <div class="carousel-item active" id="videoOuter">
-                        <i class="fas fa-volume-up playbtn" id="play" ></i>
                         <video id="vdo" src="Website symbols/wisechild new version.mp4" allow="autoplay"
-                        class="d-block w-100" autoplay="autoplay" muted loop
+                        class="d-block w-100 vdo" autoplay="autoplay" muted loop
                         playsinline
                         ></video>
+                        <i class="fas fa-volume-up playbtn" id="play" ></i>
                         <!-- <button id="play" class="plybtn">playsound</button> -->
 
                        
@@ -53,9 +53,9 @@
         </div>
         <!-- Slider Close -->
         <!-- Chevron Down -->
-        <div class="row tellMore">
+        <div class="row tellMore firstChevron">
             <div class="col-md-12">
-                <p class="headingTellMore">
+                <p class="headingTellMore ">
                     Tell me more
                     <br>
                     <a href="#stuff">
@@ -68,8 +68,9 @@
 
 
         <!-- Section One -->
-
-        <div class="container-fluid stuff  ">
+        <div class="stuffOuter">
+            
+        <div class="container-fluid stuff" id="stuffOuter" >
             <div class=" " id="stuff">
                 <div class="row specialize">
                     <div class="col-md-12 ">
@@ -80,8 +81,8 @@
                 </div>
                 <div class="row specializeIcon">
                     <div class="col-md-4 col-xs-6 col-sm-6">
-                        <img src="Website symbols/Section one/VR.png" class="vrLogo" alt="">
-                        <span class="vrText">Virtual Reality</span>
+                        <img src="Website symbols/Section one/Commericals.png" class="brandLogo" alt="">
+                        <span class="vrText">Commercials</span>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-6">
                         <img src="Website symbols/Section one/Branded-content.png" class="brandLogo" alt="">
@@ -94,9 +95,10 @@
                     </div>
                     <!-- </div>
                 <div class="row specializeIcon"> -->
+                   
                     <div class="col-md-4 col-xs-6 col-sm-6">
-                        <img src="Website symbols/Section one/Commericals.png" class="brandLogo" alt="">
-                        <span class="vrText">Commercials</span>
+                        <img src="Website symbols/Section one/VR.png" class="vrLogo" alt="">
+                        <span class="vrText">Virtual Reality</span>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-6">
                         <img src="Website symbols/Section one/documentary.png" class="brandLogo" alt="">
@@ -109,6 +111,8 @@
             </div>
 
         </div>
+    </div>
+
 
         <!-- Section One Close -->
 
@@ -267,12 +271,12 @@
             
             <div class="row numberOuter">
                 <div class="col-md-12 number">
-                    <p><span>T</span> +44 (0) 208 088 3265</p>
+                    <a href="#"><span>T</span> +44 (0) 208 088 3265</a>
                 </div>
             </div>
             <div class="row email">
                 <div class="col-md-12 number">
-                    <p><span>E</span> info@wisechild.pro</p>
+                    <a href="#"><span>E</span> info@wisechild.pro</a>
                 </div>
             </div>
             <div class="row email">
@@ -289,7 +293,7 @@
                         
                         <img src="Website symbols/footer symbols/facebook-link.png" class="socialIcon" alt="">
                     <!-- </a> -->
-                    |
+                        <span class="line"></span>
                     <a href="https://www.instagram.com/wisechild.pro/?hl=en" target="_blank">
                         
                         <img src="Website symbols/footer symbols/instagram-link.png" class="socialIcon" alt="">
@@ -315,8 +319,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
         play.addEventListener('click',function(){
-            vdo.muted= false
-            vdo.play()            
+            let vdos = document.getElementById('vdo')
+            if(vdos.muted == true){
+                console.log('working true');
+                
+            vdos.muted = false
+            vdos.play()   
+            return true         
+            }
+            if(vdos.muted == false){
+                console.log('working false');
+
+                vdos.muted = true
+                vdos.play()
+            }
         })
     </script>
 </body>

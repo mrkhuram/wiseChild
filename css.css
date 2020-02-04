@@ -54,6 +54,10 @@ margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
 
 }
+.stuffOuter{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
 .specialize{
     height: 100px;
 }
@@ -142,7 +146,7 @@ margin-bottom: 20px;
 .getInTouch .text p{
     color: white;
     font-size: 3em;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 23px;
     
 }
@@ -153,15 +157,19 @@ margin-bottom: 20px;
 .numberOuter{
     text-align: center;
 }
-.number{
+.number a:hover{
+    color: white;
+}
+.number a{
 
     color: white;
     font-size: 1.6em;
 
 }
-.number p span{
+.number a span{
     font-weight: bolder;
     font-size: 0.8em !important;
+    color: white;
 }
 .email{
     text-align: center;
@@ -179,6 +187,10 @@ color: white;
 font-size: 4em;
 font-weight: lighter;
 margin-top: 30px;
+}
+.line{
+    border-left: 1px solid white;
+    margin-right: 15px;
 }
 .socialIcon{
     height: 30px;
@@ -256,7 +268,7 @@ margin-top: 30px;
     .textOfStory{
         font-size: 1.5em;
     }
-    .number{
+    .number a{
         margin-top: 20px;
         font-size: 1.3em;
     }
@@ -274,10 +286,32 @@ margin-top: 30px;
         margin-top: 25px;
     }
     .footer{
-        height: 575px;
+        height: 500px;
     }
     .getInTouch .text p{
-        font-size: 1.9em;
+        font-size: 32px;
+        height: 70px !important;
+        margin-top: 40px;
+    }
+    .playbtn{
+        top: 250px !important;
+        right: 10px;
+    }
+    .stuffOuter{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .firstChevron{
+        padding: 70px 0px;
+    }
+    /* .getInTouch tex{
+        height: 60px
+    } */
+    .getInTouch .textOfStory p {
+        width: 250px;
+        font-size: 20px;
+        display: inline-block;
+        text-align: center;
     }
   }
 
@@ -334,7 +368,13 @@ margin-top: 30px;
 
 .playbtn{
     float: right;
-    position: absolute;
     z-index: 2;
-    top: 19px;
+    /* position: absolute;
+    top: 19px; */
+    margin-top: -40px;
+    margin-right: 20px;
+}
+.vdo{
+    position: relative;
+    z-index: -2;
 }

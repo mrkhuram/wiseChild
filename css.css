@@ -46,8 +46,8 @@ margin-bottom: 20px;
     color: black;
 }
 .stuff{
-    min-height: 450px;
-    height: 500px;
+    
+    height: 410px;
     max-height: 700px;
     background-color: #FFD6DA;
     color: black;
@@ -94,7 +94,7 @@ margin-bottom: 20px;
 }
 .people{
     background-color: #FFD55F;
-    height: 500px;
+    height: 420px;
     color: black;
     font-family: 'Poppins', sans-serif;
 
@@ -114,7 +114,7 @@ margin-bottom: 20px;
 
 }
 .clients{
-    height: 500px;
+    height: 420px;
     background-color: #7affcbff;
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -130,7 +130,7 @@ margin-bottom: 20px;
     margin-left: -40px;
 }
 .clientsOuter{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .footer{
     height: 630px;
@@ -189,6 +189,7 @@ font-weight: lighter;
 margin-top: 30px;
 }
 .line{
+    border-top-left-radius: 20px;
     border-left: 1px solid white;
     margin-right: 15px;
 }
@@ -210,17 +211,22 @@ margin-top: 30px;
     .stuffTxt{
         text-align: center;
     }
-    .specializeText{
-        font-size: 1.5em;
-        margin-left: 0px;
+    .specializeIcon{
         margin-top: 20px;
     }
+    .specializeText{
+        font-size: 2.5em;
+        margin-left: 0px;
+        margin-top: 20px;
+        line-height: 1.1;
+        /* font-weight: bolder; */
+    }
     .vrLogo{
-        height: 80px;
-        margin-top: 0px;
+        height: 68px !important;
+        margin-top: 10px;
     }
     .brandLogo{
-        height: 80px;
+        height: 68px !important;
     }
     .vrText{
         font-size: 1.3em !important;
@@ -283,7 +289,7 @@ margin-top: 30px;
         margin-top: 10px;
     }
     .clientsOuter{
-        margin-top: 25px;
+        margin-top: 70px;
     }
     .footer{
         height: 500px;
@@ -311,6 +317,11 @@ margin-top: 30px;
         width: 250px;
         font-size: 20px;
         display: inline-block;
+        text-align: center;
+    }
+    .list li a{
+        color: gray;
+        font-size: 16px;
         text-align: center;
     }
   }
@@ -377,4 +388,32 @@ margin-top: 30px;
 .vdo{
     position: relative;
     z-index: -2;
+}
+.fbAnchor:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 380px){
+    .stuff,.people,.clients{
+        padding: 0px !important;
+    }
+    .imgOuter{
+        padding: 0px !important;
+    }
+    .stuff{
+        height: 630px;
+    }
+    .clients{
+        height: 550px;
+
+    }
+    .clientsOuter{
+        margin-top: 100px;
+    }
+
+
+}
+.bordered{
+    height: 100px;
+    /* border: none !important; */
 }

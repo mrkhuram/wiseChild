@@ -4,37 +4,40 @@
     margin-top: 5px;
     transition: all 400ms ease-in-out;
 
-    height: 70px;
 }
 .logo{
     transition: all 400ms ease-in-out;
 
-text-align: center;
+    text-align: center;
 }
 .logo-img{
     /* margin-left: 50px; */
     height: 50px;
     margin-top: 10px;
     transition: all 400ms ease-in-out;
-
+    
     /* width: 100px; */
 }
 .list{
-    display: flex;
-    /* text-align: center; */
+    
     margin-left: 30%;
     transition: all 400ms ease-in-out;
-
-    margin-top: 35px;
+    text-align: center;
+    margin-top: 20px;
 }
-.list li{
+#top{
+    display: flex;
+    height: 70px;
+    flex-direction: row;
+}
+.list a{
     flex-wrap: wrap;
-    list-style-type: none;
+    /* list-style-type: none; */
     transition: all 400ms ease-in-out;
 
     margin-left: 25px;
 }
-.list li a{
+.list a{
     text-decoration: none;
     margin-top: 20px;
     color: gray;
@@ -101,14 +104,17 @@ margin-bottom: 20px;
 
     font-weight: bold;
 }
-.vrLogo{
+
+
+
+.sectionOne, .sectionTwo{
     height: 100px;
     margin-top: 30px;
     transition: all 400ms ease-in-out;
 
     margin-left: 20px;
 }
-.vrText{
+.sectionOneText, .sectionTwoText{
     font-size: 1.5em;
     font-weight: bolder;
     font-family: sans-serif, 'Poppins';
@@ -117,7 +123,14 @@ margin-bottom: 20px;
 
     top: 20px;
 }
-.brandLogo{
+.superTalented{
+    padding-top: 50px;
+    padding-left: 15px;
+}
+.coolAndText{
+    padding-top: 45px;
+}
+.sectionOne, .sectionTwo{
     height: 100px;
     margin-top: 30px;
     transition: all 400ms ease-in-out;
@@ -275,7 +288,7 @@ margin-top: 30px;
 
     height: 30px;
 }
-/
+/*
     transition: all 400ms ease-in-out;
 * .coolAnd{
     display: flex; flex-wrap: wrap;
@@ -295,10 +308,22 @@ margin-top: 30px;
 
 @media only screen and (max-width: 600px){
     .stuff{
-        height: 620px;
+        height: 590px;
     transition: all 400ms ease-in-out;
 
         /* text-align: center; */
+    }
+    .imgOuter{
+        transition: all 400ms ease-in-out;
+    
+            /* padding: 0px !important; */
+            padding: 5px;
+        }
+    #top{
+        height: 100px;
+    }
+    .list {
+        margin-left: -16px;
     }
     .brk{
     transition: all 400ms ease-in-out;
@@ -315,6 +340,22 @@ margin-top: 30px;
 
         /* text-align: center; */
     }
+    .sectionTwo{
+        margin-left: 20px;
+    }
+    .sectionOne{
+        margin-top: 15px;
+    }
+    .coolAndText {
+        padding-top: 18px;
+    }
+    .superTalented {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    .officeText{
+        top: 0
+    }
     .specializeText{
         font-size: 1.78em;
         margin-left: 0px;
@@ -324,16 +365,18 @@ margin-top: 30px;
 
         /* font-weight: bolder; */
     }
-    .vrLogo{
-        height: 65px !important;
+    .sectionOne, .sectionTwo{
         margin-top: 10px;
         transition: all 400ms ease-in-out;
 
-        margin-left: 50px;
+        /* margin-left: 20px; */
     }
-    .brandLogo{
+    /* .sectionOne{
+        margin-left: 35px !important;
+    } */
+    .sectionOne, .sectionTwo{
         height: 65px !important;
-        margin-left: 50px;
+        margin-left: 20px;
         transition: all 400ms ease-in-out;
 
 
@@ -343,7 +386,7 @@ margin-top: 30px;
 
         display: inline;
     }
-    .vrText{
+    .sectionOneText, .sectionTwoText{
     transition: all 400ms ease-in-out;
 
         font-size: 1.1em !important;
@@ -351,7 +394,7 @@ margin-top: 30px;
     .people{
     transition: all 400ms ease-in-out;
 
-        height: 600px;
+        height: 550px;
     }
     .coolPeople{
     transition: all 400ms ease-in-out;
@@ -408,7 +451,7 @@ margin-top: 30px;
     .list{
     transition: all 400ms ease-in-out;
 
-        margin-left: 10%;
+        /* margin-left: 10%; */
     }
     .textOfStory{
     transition: all 400ms ease-in-out;
@@ -510,7 +553,7 @@ margin-top: 30px;
 
         font-size: 1.1em;
     }
-    .brandLogo{
+    .sectionOne, .sectionTwo{
     transition: all 400ms ease-in-out;
 
         height: 100px;
@@ -545,7 +588,7 @@ margin-top: 30px;
 
         font-size: 0.7em;
     }
-    .brandLogo{
+    .sectionOne, .sectionTwo{
     transition: all 400ms ease-in-out;
 
         height: 80px;
@@ -570,12 +613,12 @@ margin-top: 30px;
     .list{
         margin: auto;
         margin-top: 5px;
-        margin-left: 15px;
+        margin-left: -15px;
     transition: all 400ms ease-in-out;
 
         margin-bottom: 5px;
     }
-    transition: all 400ms ease-in-out;
+    /* transition: all 400ms ease-in-out; */
 
 
   }
@@ -608,15 +651,21 @@ margin-top: 30px;
 
         padding: 0px !important;
     }
+    
+
     .imgOuter{
     transition: all 400ms ease-in-out;
 
-        padding: 0px !important;
+        /* padding: 0px !important; */
+        padding: 5px;
     }
     .stuff{
     transition: all 400ms ease-in-out;
 
-        height: 630px;
+        height: 570px;
+    }
+    .people{
+        height: 560px
     }
     .secondIcon {
         margin-left: 30px;
@@ -627,6 +676,10 @@ margin-top: 30px;
     transition: all 400ms ease-in-out;
 
 
+    }
+    .superTalented {
+        padding-top: 10px;
+        padding-left: 0px;
     }
     .clientsOuter{
     transition: all 400ms ease-in-out;

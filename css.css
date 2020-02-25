@@ -139,7 +139,7 @@ margin-bottom: 20px;
 }
 .people{
     background-color: #FFD55F;
-    height: 420px;
+    height: 410px;
     color: black;
     font-family: 'Poppins', sans-serif;
     transition: all 400ms ease-in-out;
@@ -167,7 +167,7 @@ margin-bottom: 20px;
 
 }
 .clients{
-    height: 420px;
+    height: 395px;
     background-color: #7affcbff;
     color: black;
     font-family: 'Poppins', sans-serif;
@@ -196,7 +196,7 @@ margin-bottom: 20px;
     margin-top: 30px;
 }
 .footer{
-    height: 630px;
+    height: 575px;
     background-color: black;
     font-family: 'Poppins', sans-serif;
     transition: all 400ms ease-in-out;
@@ -214,7 +214,7 @@ margin-bottom: 20px;
     color: white;
     font-size: 3em;
     font-weight: 900;
-    margin-top: 23px;
+    margin-top: 40px;
     transition: all 400ms ease-in-out;
 
     
@@ -222,7 +222,7 @@ margin-bottom: 20px;
 .textOfStory{
     color: white;
     transition: all 400ms ease-in-out;
-
+    margin-top: 15px;
     font-size: 2em;
 }
 .numberOuter{
@@ -341,20 +341,24 @@ margin-top: 30px;
         /* text-align: center; */
     }
     .sectionTwo{
-        margin-left: 20px;
+        margin-left: 30px;
+        /* margin: auto; */
     }
     .sectionOne{
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .coolAndText {
-        padding-top: 18px;
+        padding-top: 15px;
+        /* top: 10px */
     }
     .superTalented {
         padding-top: 15px;
+        
         padding-left: 0px;
     }
     .officeText{
-        top: 0
+        top: 0;
+        margin-left: 13px;
     }
     .specializeText{
         font-size: 1.78em;
@@ -368,7 +372,7 @@ margin-top: 30px;
     .sectionOne, .sectionTwo{
         margin-top: 10px;
         transition: all 400ms ease-in-out;
-
+        
         /* margin-left: 20px; */
     }
     /* .sectionOne{
@@ -376,7 +380,7 @@ margin-top: 30px;
     } */
     .sectionOne, .sectionTwo{
         height: 65px !important;
-        margin-left: 20px;
+        margin-left: 15%;
         transition: all 400ms ease-in-out;
 
 
@@ -388,8 +392,9 @@ margin-top: 30px;
     }
     .sectionOneText, .sectionTwoText{
     transition: all 400ms ease-in-out;
-
+    top: 9px;
         font-size: 1.1em !important;
+        margin-left: 15px;
     }
     .people{
     transition: all 400ms ease-in-out;
@@ -540,6 +545,9 @@ margin-top: 30px;
     transition: all 400ms ease-in-out;
 
     }
+    .footerOuter{
+        padding: 0px !important; 
+    }
   }
 
   @media only screen and (max-width: 1296px){
@@ -652,7 +660,10 @@ margin-top: 30px;
         padding: 0px !important;
     }
     
-
+    .sectionOneText , .sectionTwoText{
+        margin-left: 10px;
+    }
+    
     .imgOuter{
     transition: all 400ms ease-in-out;
 
@@ -667,26 +678,32 @@ margin-top: 30px;
     .people{
         height: 560px
     }
-    .secondIcon {
-        margin-left: 30px;
+    /* .secondIcon {
+        margin-left: auto;
 
-    }
+    } */
     .clients{
-        height: 550px;
+        height: 520px;
     transition: all 400ms ease-in-out;
 
 
     }
     .superTalented {
         padding-top: 10px;
-        padding-left: 0px;
+        padding-left: 4px;
+    }
+    .coolAndText{
+        padding-left: 4px;
     }
     .clientsOuter{
     transition: all 400ms ease-in-out;
 
         margin-top: 60px;
     }
-
+    .officeText{
+        top: 0;
+        margin-left: 9px;
+    }
 
 }
 .bordered{
@@ -694,4 +711,20 @@ margin-top: 30px;
     transition: all 400ms ease-in-out;
     height: 100px;
     /* border: none !important; */
+}
+
+@media only screen and (max-width: 340px){
+        .sectionOne , .sectionTwo{
+            margin-left: 13px;
+        }
+        .sectionTwo{
+            margin-left: 15px;
+        }
+}
+
+.footerOuter{
+
+    padding-left: 50px ;
+    transition: all 400ms ease-in-out;
+    padding-right: 50px ;
 }

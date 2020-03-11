@@ -160,7 +160,7 @@
                             <!-- <p class="coolOuter"> -->
 
                             <span class="sectionTwoText coolAndText">Cool & nice
-                                <br class="coolBrk">
+                                <br >
 
                                 people</span>
                             <!-- </p> -->
@@ -357,14 +357,12 @@
         play.addEventListener('click', function () {
             let vdos = document.getElementById('vdo')
             if (vdos.muted == true) {
-                console.log('working true');
-
                 vdos.muted = false
                 vdos.play()
                 return true
             }
             if (vdos.muted == false) {
-                console.log('working false');
+
 
                 vdos.muted = true
                 vdos.play()

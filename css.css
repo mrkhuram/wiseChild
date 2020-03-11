@@ -120,7 +120,7 @@ margin-bottom: 20px;
     font-family: sans-serif, 'Poppins';
     position: relative;
     transition: all 400ms ease-in-out;
-
+    line-height: normal;
     top: 20px;
 }
 .superTalented{
